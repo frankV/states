@@ -37,6 +37,7 @@ base:
     - acpid
     - xorg.intel
     - development
+    - development.js
     - netcfg.profiles
     - netcfg.wireless
   'sulfur.uggedal.com':
