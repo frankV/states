@@ -6,7 +6,6 @@ include:
   - pacman
   - logrotate
   - iptables
-  - ntp
   - ssh
   - cron
   - cron.jobs

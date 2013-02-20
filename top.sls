@@ -4,6 +4,7 @@ base:
     - users
   'sodium.uggedal.com':
     - dhcp
+    - ntp.d
     - pacman.uk
     - xen
     - salt.master
@@ -17,6 +18,7 @@ base:
     - postgresql.databases
   'magnesium.uggedal.com':
     - dhcp
+    - ntp.d
     - pacman.uk
     - xen
     - tarsnap.backup
@@ -25,6 +27,7 @@ base:
     - redis
     - postgresql.databases
   'aluminium.uggedal.com':
+    - ntp.date
     - pacman.no
     - zsh
     - acpid
@@ -32,6 +35,7 @@ base:
     - netcfg.profiles
     - netcfg.wireless
   'silicon.uggedal.com':
+    - ntp.date
     - pacman.no
     - zsh
     - acpid
@@ -40,10 +44,3 @@ base:
     - development.js
     - netcfg.profiles
     - netcfg.wireless
-  'sulfur.uggedal.com':
-    - pacman.uk
-    - tarsnap.backup
-    - nginx.sites
-    - uwsgi.services
-    - redis
-    - netcfg.profiles
