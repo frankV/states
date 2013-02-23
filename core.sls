@@ -19,6 +19,7 @@ corepkgs:
       - htop
       - lsof
       - psm
+      - bc
 
 unneededpkgs:
   pkg.purged:
