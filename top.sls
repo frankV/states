@@ -34,6 +34,7 @@ base:
     - xorg.nvidia
     - netcfg.profiles
     - netcfg.wireless
+    - tsocks
   'silicon.uggedal.com':
     - ntp.date
     - pacman.no
@@ -44,3 +45,4 @@ base:
     - development.js
     - netcfg.profiles
     - netcfg.wireless
+    - tsocks
