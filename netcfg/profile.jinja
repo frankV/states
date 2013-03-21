@@ -6,25 +6,24 @@ IP='{{ profile.get('ip', 'dhcp') }}'
 {%- if 'addr' in profile %}
 ADDR='{{ profile.addr }}'
 {%- endif %}
-{%- if 'security' in profile %}
-SECURITY='{{ profile.security }}'
+{%- if 'essid' in profile %}
+SECURITY='wpa-configsection'
 {%- endif %}
 
 {%- if 'post_up' in profile %}
-POST_UP='{{ profile.post_up }}'
+POST_UP="{{ profile.post_up }}"
 {%- endif %}
 
 {% if 'essid' in profile %}
-{%- if 'key' in profile %}
-ESSID='{{ profile.essid }}'
-KEY='{{ profile.key }}'
-{%- else  %}
 CONFIGSECTION='
     ssid="{{ profile.essid }}"
-    key_mgmt={{ profile.key_mgmt }}
+    {%- if 'psk' in profile %}
+    psk="{{ profile.psk }}"
+    {%- elif 'eap' in profile %}
     eap={{ profile.eap }}
     anonymous_identity="{{ profile.identity }}"
     identity="{{ profile.identity }}"
-    password="{{ profile.password }}"'
-{%- endif %}
+    password="{{ profile.password }}"
+    {%- endif %}
+    key_mgmt={{ profile.get('key_mgmt', 'NONE') }}'
 {% endif %}
