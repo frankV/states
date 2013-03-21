@@ -45,4 +45,5 @@ base:
     - development.js
     - netcfg.profiles
     - netcfg.wireless
+    - netcfg.wired
     - tsocks
