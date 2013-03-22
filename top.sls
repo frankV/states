@@ -9,7 +9,6 @@ base:
     - xen
     - salt.master
     - zsh
-    - sic
     - development*
     - packaging
     - nginx.sites

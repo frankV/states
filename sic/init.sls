@@ -1,2 +1,0 @@
-sic:
-  pkg.installed
