@@ -4,45 +4,57 @@ states can easily be generalized.
 Expected Pillar data
 --------------------
 
-Private data is stored in [pillar][p]. To make these states work you'll
-have to create pillar data following this structure:
+Private data is stored in [pillar][p]. Some of these states expect pillar
+data in a specific structure.
 
+### cron
 
-    # List of all daemons which should be enabled at boot:
-    daemons:
-      - syslog-ng
-      - network
-      - sshd
-      - ntpd
-      - crond
-      - iptables
-      - uwsgi
-      - salt-minion
+    # List of cron jobs:
+    cron_jobs:
+      - cmd: /usr/local/venv/viva/bin/ctl sendnews
+        user: http
+        minute: '*/5'
 
-    # List of users allowed to log in with ssh:
-    allowed_users:
-      - myunprivilegeduser
+### iptables
 
-    # List of TCP ports to open in iptables:
+    # List of TCP ports to open:
     accept_tcp_ports:
       - 80
+
+### nginx
 
     # List of nginx sites (static and/or proxied over uwsgi or http protocol):
     nginx_sites:
       - fqdn: mysite.com
         aliases:
           - www.mysite.com
-        default: true # Default vhost for the listen IP.
+        default: true
         root: /srv/http/mysite
-        uwsgi: true # True for uwsgi, false for http
+        uwsgi: true
         upstreams: ["unix:/var/run/uwsgi/mysite.sock"]
-        static_prefix: /static # Prefix for paths to give far future expires
+        static_prefix: /static
 
-    # List of uWSGI vassals:
-    uwsgi_vassals:
-      - name: mysite
-        module: "mysite:app"
-        processes: 4
+### pacman
+
+    # Extra pacman repos:
+    pacman_extra_repos:
+      - name: uggedal
+        url: http://my.private.repo.com
+
+### postgresql
+
+    # List of postgresql databases:
+    postgresql_databases:
+      - bravann
+      - viva
+
+### ssh
+
+    # List of users allowed to log in with ssh:
+    allowed_users:
+      - myunprivilegeduser
+
+### tarsnap
 
     # List of cmds to run and take backup of with tarsnap:
     tarsnap_backup_cmds:
@@ -52,6 +64,41 @@ have to create pillar data following this structure:
     tarsnap_backup_paths:
       - /etc
       - /srv/http/mysite/static/uploads
+
+### users
+
+    # List of unprivileged users:
+    users:
+      myuser:
+        group: users
+        uid: 3000
+        gid: 100
+        fullname: My User
+        ssh_auth:
+          key: verylongkeyhere
+          comment: my@user.com
+
+    # List of groups all unprivileged users should be member of:
+    unprivileged_groups:
+      - adm
+    # Whether to allow passwords for all unprivileged users:
+    unprivileged_keep_password: true
+
+    # Shell for all unprivileged users:
+    unprivileged_shell: /bin/zsh
+
+### uwsgi
+
+    # List of uwsgi instances:
+    uwsgi_services:
+      - name: mysite
+        module: "mysite:app"
+        processes: 4
+      - name: myothersite
+        module: myothersite
+        django: true
+        idle: true
+        processes: 1
 
 
 [s]: http://saltstack.org
