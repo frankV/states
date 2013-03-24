@@ -3,4 +3,3 @@ cdevpkgs:
     - names:
       - valgrind
       - gdb
-      - cdecl
