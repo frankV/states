@@ -21,3 +21,4 @@ base-devel:
     - template: jinja
     - defaults:
         packager: "Eivind Uggedal <eivind@uggedal.com>"
+        jobs: 8

@@ -33,7 +33,7 @@ CFLAGS="-march=x86-64 -mtune=generic -O2 -pipe -fstack-protector --param=ssp-buf
 CXXFLAGS="-march=x86-64 -mtune=generic -O2 -pipe -fstack-protector --param=ssp-buffer-size=4 -D_FORTIFY_SOURCE=2"
 LDFLAGS="-Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu"
 #-- Make Flags: change this for DistCC/SMP systems
-#MAKEFLAGS="-j2"
+MAKEFLAGS="-j{{ jobs }}"
 
 #########################################################################
 # BUILD ENVIRONMENT
