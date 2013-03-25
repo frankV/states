@@ -5,7 +5,7 @@ devpkgs:
       - tmux
       - git
       - mercurial
-      - silver-searcher-git
+      - the_silver_searcher
       - inotify-tools
       - cloc
       - gettext
