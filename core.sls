@@ -16,9 +16,6 @@ corepkgs:
   pkg.installed:
     - names:
       - inetutils
-      - htop
-      - lsof
-      - psm
       - bc
 
 unneededpkgs:

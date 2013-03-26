@@ -15,6 +15,7 @@ base:
     - uwsgi.services
     - redis
     - postgresql.databases
+    - analysis
   'magnesium.uggedal.com':
     - dhcp
     - ntp.d
@@ -25,6 +26,7 @@ base:
     - uwsgi.services
     - redis
     - postgresql.databases
+    - analysis
   'aluminium.uggedal.com':
     - ntp.date
     - pacman.no
