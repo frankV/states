@@ -41,5 +41,4 @@ unneededpkgs:
       - wget
       - whois
       - libfetch
-      - libidn
       - libpcap
