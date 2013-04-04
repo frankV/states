@@ -48,3 +48,4 @@ base:
     - netcfg.wireless
     - netcfg.wired
     - tsocks
+    - vbox
