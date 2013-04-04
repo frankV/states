@@ -16,7 +16,6 @@ nginx-rc:
     - template: jinja
     - defaults:
         worker_user: http
-        worker_processes: 1
     - require:
       - pkg: nginx
 

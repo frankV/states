@@ -1,3 +1,5 @@
+{% set worker_processes = pillar.get('nginx_worker_processes', 1) %}
+
 user {{ worker_user }};
 worker_processes  {{ worker_processes }};
 
