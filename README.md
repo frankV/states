@@ -38,7 +38,7 @@ data in a specific structure.
 
     # Extra pacman repos:
     pacman_extra_repos:
-      - name: uggedal
+      - name: myprivaterepo
         url: http://my.private.repo.com
 
 ### postgresql
