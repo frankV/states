@@ -7,3 +7,4 @@ analysispkgs:
       - sysstat
       - iotop
       - perf
+      - wrk
