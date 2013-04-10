@@ -100,5 +100,6 @@ Include = /etc/pacman.d/mirrorlist
 
 {% for repo in extra_repos %}
 [{{ repo.name }}]
+SigLevel = Optional
 Server = {{ repo.url }}/$arch
 {% endfor %}
