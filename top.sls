@@ -33,8 +33,8 @@ base:
     - zsh
     - acpid
     - xorg.nvidia
-    - netcfg.profiles
-    - netcfg.wireless
+    - netctl.profiles
+    - netctl.wireless
     - tsocks
   'silicon.uggedal.com':
     - ntp.date
@@ -44,8 +44,8 @@ base:
     - xorg.intel
     - development
     - development.js
-    - netcfg.profiles
-    - netcfg.wireless
-    - netcfg.wired
+    - netctl.profiles
+    - netctl.wireless
+    - netctl.wired
     - tsocks
     - vbox

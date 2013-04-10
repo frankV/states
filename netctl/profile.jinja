@@ -1,0 +1,24 @@
+{% set profile = pillar["netctl_profiles"][index] %}
+Connection='{{ profile.get('connection', 'wireless') }}'
+Interface='{{ profile.get('interface', 'wlan0') }}'
+IP='{{ profile.get('ip', 'dhcp') }}'
+{%- if 'essid' in profile %}
+Security='wpa-configsection'
+{%- endif %}
+{%- if 'post_up' in profile %}
+ExecUpPost="{{ profile.post_up }}"
+{%- endif %}
+{%- if 'essid' in profile %}
+WPAConfigSection=(
+    'ssid="{{ profile.essid }}"'
+    {%- if 'psk' in profile %}
+    'psk="{{ profile.psk }}"'
+    {%- elif 'eap' in profile %}
+    'eap={{ profile.eap }}'
+    'anonymous_identity="{{ profile.identity }}"'
+    'identity="{{ profile.identity }}"'
+    'password="{{ profile.password }}"'
+    {%- endif %}
+    'key_mgmt={{ profile.get('key_mgmt', 'NONE') }}'
+)
+{%- endif %}

@@ -1,12 +1,12 @@
 include:
-  - netcfg
+  - netctl
 
 ifplugd:
   pkg.installed
 
-net-auto-wired:
+netctl-ifplugd@eth0:
   service.running:
     - enable: True
     - require:
-      - pkg: netcfg
+      - pkg: netctl
       - pkg: ifplugd
