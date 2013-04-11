@@ -2,7 +2,7 @@ devpkgs:
   pkg.installed:
     - names:
       - vim
-      - tmux
+      - tmuxstart
       - git
       - mercurial
       - the_silver_searcher
