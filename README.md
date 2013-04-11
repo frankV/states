@@ -21,6 +21,30 @@ data in a specific structure.
     accept_tcp_ports:
       - 80
 
+### netctl
+
+    # netctl wired/wireless profiles:
+    netctl_profiles:
+      - name: wired
+        connection: ethernet
+        interface: eth0
+      - name: home
+        essid: myhomenet
+        key_mgmt: WPA-PSK
+        psk: thepresharedkey
+      - name: work
+        security: wpa-configsection
+        essid: worknet
+        key_mgmt: WPA-EAP
+        eap: PEAP
+        identity: 'My Name'
+        password: myworkpassword
+      - name: conference
+        essid: confnet
+      - name: openwithauth
+        essid: opennet
+        post_up: "curl -ksd 'u=me&p=qwer' https://open.tld >/dev/null"
+
 ### nginx
 
     # List of nginx sites (static and/or proxied over uwsgi or http protocol):
