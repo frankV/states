@@ -1,50 +1,21 @@
 base:
   '*':
-    - core
-    - users
+    - common
   'sodium.uggedal.com':
-    - dhcp
-    - ntp.d
-    - pacman.uk
-    - xen
+    - common.xen
+    - common.web
     - salt.master
-    - zsh
     - development*
     - packaging
-    - nginx.sites
-    - uwsgi.services
-    - redis
-    - postgresql.databases
-    - analysis
   'magnesium.uggedal.com':
-    - dhcp
-    - ntp.d
-    - pacman.uk
-    - xen
+    - common.xen
+    - common.web
     - tarsnap.backup
-    - nginx.sites
-    - uwsgi.services
-    - redis
-    - postgresql.databases
-    - analysis
   'aluminium.uggedal.com':
-    - ntp.date
-    - pacman.no
-    - zsh
-    - acpid
+    - common.laptop
     - xorg.nvidia
-    - development
-    - netctl.wireless
-    - tsocks
   'silicon.uggedal.com':
-    - ntp.date
-    - pacman.no
-    - zsh
-    - acpid
-    - xorg.intel
-    - development
-    - development.js
-    - netctl.wireless
+    - common.laptop
     - netctl.wired
-    - tsocks
+    - xorg.intel
     - vbox
