@@ -33,6 +33,7 @@ base:
     - zsh
     - acpid
     - xorg.nvidia
+    - development
     - netctl.profiles
     - netctl.wireless
     - tsocks
