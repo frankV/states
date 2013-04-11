@@ -1,5 +1,6 @@
 include:
   - netctl
+  - netctl.profiles
 
 ifplugd:
   pkg.installed

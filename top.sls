@@ -34,7 +34,6 @@ base:
     - acpid
     - xorg.nvidia
     - development
-    - netctl.profiles
     - netctl.wireless
     - tsocks
   'silicon.uggedal.com':
@@ -45,7 +44,6 @@ base:
     - xorg.intel
     - development
     - development.js
-    - netctl.profiles
     - netctl.wireless
     - netctl.wired
     - tsocks

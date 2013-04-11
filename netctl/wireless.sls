@@ -1,5 +1,6 @@
 include:
   - netctl
+  - netctl.profiles
 
 "netctl-auto@wlan0":
   service.running:
