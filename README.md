@@ -121,7 +121,7 @@ data in a specific structure.
     unprivileged_keep_password: true
 
     # Shell for all unprivileged users:
-    unprivileged_shell: /bin/zsh
+    unprivileged_shell: /usr/bin/fish
 
 ### uwsgi
 

@@ -1,2 +1,2 @@
-zsh:
+fish-shell-git:
   pkg.installed

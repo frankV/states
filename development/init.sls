@@ -1,7 +1,9 @@
+include:
+  - fish
+
 devpkgs:
   pkg.installed:
     - names:
-      - zsh
       - vim
       - tmuxstart-git
       - git

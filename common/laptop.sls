@@ -2,7 +2,7 @@ include:
   - netctl.wireless
   - ntp.date
   - pacman.no
-  - zsh
+  - fish
   - acpid
   - tsocks
   - development
