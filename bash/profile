@@ -8,6 +8,9 @@ PATH="/usr/local/bin:/usr/bin:/bin"
 if [ "$EUID" = "0" ]; then
   PATH="${PATH}:/usr/local/sbin:/usr/sbin:/sbin"
 fi
+if [ -d "$HOME/bin" ]; then
+  PATH="${PATH}:$HOME/bin"
+fi
 export PATH
 
 # Load profiles from /etc/profile.d
