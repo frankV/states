@@ -17,6 +17,7 @@ corepkgs:
     - names:
       - inetutils
       - bc
+      - time
 
 unneededpkgs:
   pkg.purged:
