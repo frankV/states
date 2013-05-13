@@ -1,6 +1,3 @@
-include:
-  - fish
-
 devpkgs:
   pkg.installed:
     - names:
