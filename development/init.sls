@@ -4,6 +4,7 @@ devpkgs:
       - vim
       - tmuxstart-git
       - git
+      - tig
       - mercurial
       - the_silver_searcher
       - inotify-tools
