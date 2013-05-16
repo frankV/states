@@ -1,0 +1,384 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"re",
+				"reg_students"
+			],
+			[
+				"Pre",
+				"PreReg_User"
+			],
+			[
+				"in",
+				"Institution"
+			],
+			[
+				"inst",
+				"institutions"
+			],
+			[
+				"WS",
+				"WS"
+			],
+			[
+				"W",
+				"W"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"fin",
+				"findUser"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"user",
+				"userPair"
+			],
+			[
+				"pass",
+				"passouttest1"
+			],
+			[
+				"files",
+				"filestats"
+			],
+			[
+				"file",
+				"filestats"
+			],
+			[
+				"s",
+				"srcf"
+			],
+			[
+				"total",
+				"total_chars"
+			],
+			[
+				"max-",
+				"max-height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/frankV/Desktop/FMD/Clients/openhack/openhack.github.com/tallahassee/index.markdown",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/footer.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/static/css/sofit_adaptive.css",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/base.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/static/bootstrap/css/sofit_adaptive.css",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_djangobase/env_settings/staging.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_djangobase/settings.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_djangobase/env_settings/development.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/preregistration_template.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/static/bootstrap/css/bootstrap.css",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_djangobase/urls.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/admin.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/prereg/views.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/prereg/models.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/forms.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/institutions/models.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/prereg/forms.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/views.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/models.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/includes/institutions/schools_typeahead.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/includes:school_typeahead.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/schools.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/institutions/views.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/contact.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/institutions/templatetags/tags.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/settings.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/manage.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/__init__.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/index.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/urls.py",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/bootstrap_toolkit/static/css/bootstrap231_coaps.css",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/form_using_template.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/form.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/sofitu_base/templates/form_inline.html",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/env/bin/activate",
+		"/Users/frankV/Desktop/FMD/Clients/sofitu/sofitu_djangobase/README.md",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4530/Assignments/proj5/deliverables/valcarcel_proj5/hashtable.cpp",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj4/ws.pl",
+		"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1367003345/linprog/home/majors/valcarce/courses/SPRING13/COP4530/projects/proj5/deliverables/runpass.sh",
+		"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1366937107/linprog/home/majors/valcarce/courses/SPRING13/COP4530/projects/proj5/deliverables/spass.cpp",
+		"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1366923949/linprog/home/majors/valcarce/courses/SPRING13/COP4530/projects/proj5/deliverables/guipass.c",
+		"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1366923031/linprog/home/majors/valcarce/courses/SPRING13/COP4530/projects/proj5/deliverables/guipass.c",
+		"/Users/frankV/Development/Python/django/django-facebook/Django-facebook/facebook_example/settings.py",
+		"/Users/frankV/Development/Python/Sandbox/line_alphabetorder.py",
+		"/Users/frankV/Development/Python/Sandbox/alphabetorder.py",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Homework/answer key/hw7.pl",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj3/deliverables/ws.scm",
+		"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1366242469/linprog/home/majors/valcarce/courses/SPRING13/COP4020/projects/proj3/deliverables/ws.scm",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj3/deliverables/wsx.scm",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj3/deliverables/ws2.scm",
+		"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1366219643/linprog/home/majors/valcarce/courses/SPRING13/COP4020/projects/proj3/deliverables/ws.scm",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj3/deliverables/base.scm",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj3/deliverables/proj3_3.scm",
+		"/Users/frankV/Dropbox/Work/ACM/website/new_site/index.html",
+		"/Users/frankV/Downloads/jquery-parallax-1.1.3/index.html",
+		"/Users/frankV/Dropbox/Work/ACM/website/new_site/css/parrallax.css",
+		"/Users/frankV/Dropbox/Work/ACM/website/new_site/js/scrolls.js",
+		"/Users/frankV/Dropbox/Work/ACM/website/new_site/css/style-desktop.css",
+		"/Users/frankV/Dropbox/School/FSU/3.13 Spring/COP4020/Projects/proj3/deliverables/proj3.scm",
+		"/Users/frankV/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/linprog",
+		"/Users/frankV/Desktop/FMD/Clients/valcarce/valcarce/valcarce/settings.py",
+		"/Users/frankV/Desktop/FMD/Clients/valcarce/valcarce/fabfile.py",
+		"/Users/frankV/Desktop/FMD/Clients/valcarce/valcarce/manage.py",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/cdp_app/templates/map.html",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/cdp_app/views.py",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/urls.py",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/cdp_app/templates/base.html",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/__init__.py",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/cdp_app/templates/tabs.html",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/bootstrap_toolkit/templatetags/bootstrap_toolkit.py",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/cdp_app/templates/index.html",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/bootstrap_toolkit/templates/bootstrap_toolkit/messages.html",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/bootstrap_toolkit/templates/bootstrap_toolkit/form.html",
+		"/Users/frankV/Dropbox/Work/COAPS/cdp/cdp/.gitignore",
+		"/Users/frankV/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/frankV/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/frankV/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/frankV/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/frankV/Dropbox/Work/COAPS/cdp/",
+			"/Users/frankV/Dropbox/Work/COAPS/cdp/cd"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"blue",
+			", blank=True",
+			" # Field name made lowercase.",
+			"{%",
+			"cdp",
+			"piyush",
+			"osceola",
+			"sofit",
+			"cdp",
+			"cdp_app",
+			"cdp",
+			"found",
+			"if(",
+			"pair<string, string>",
+			"cout",
+			"index",
+			"Erro",
+			"bucketVecto",
+			"index",
+			"vectSize",
+			"break",
+			"Capac",
+			"userInput",
+			"CryptPassword",
+			"cin.get()",
+			"cin.get();",
+			"pair<string, string>",
+			"pairTemp",
+			"vectorSize",
+			"newPassword",
+			"userAndPassTemp",
+			"listItr",
+			"typedef list< pair <string, string> >::iterator",
+			"userName",
+			"myHash",
+			"add1",
+			"close",
+			"port",
+			"#",
+			"str",
+			"%s/str/word/g",
+			"perfec",
+			"meet",
+			"django",
+			"meet",
+			"bootstrap",
+			"meet "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"osceola",
+			"piyush",
+			"sofitu_base",
+			"input",
+			"cryptPassword",
+			"strPair",
+			"vectSize",
+			"newPasswd",
+			"userPair",
+			"Itr",
+			"username",
+			"Hash",
+			"+",
+			"srcf",
+			"word"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 87.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/folders/86/j403d_8n39jd487wkq5snpj40000gn/T/sublime-sftp-browse-1366145900/linprog/home/majors/valcarce/courses/SPRING13/COP4020/projects/proj3/deliverables/ws.scm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true
+}
